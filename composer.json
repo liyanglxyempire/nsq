@@ -1,0 +1,24 @@
+{
+    "name": "laravel-queue/nsq",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liyang"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "illuminate/queue": "^9.0"
+    },
+    "suggest": {
+        "ext-swoole": "Event-driven asynchronous & concurrent & coroutine networking engine with high performance for PHP."
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelQueue\\Nsq\\ServiceProvider"
+            ]
+        }
+    }
+}
